@@ -21,4 +21,4 @@ def process_file(fname):
 
 
 if __name__ == "__main__":
-    print(process_file("difur.tex"))
+    print(process_file("matan.tex"))
