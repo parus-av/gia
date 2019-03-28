@@ -12,6 +12,9 @@
 \usepackage{mathrsfs}
 \usepackage{enumitem}
 
+\setenumerate[1]{label=\thesection.\arabic*}
+\setenumerate[2]{label*=\arabic*}
+
 \DeclareMathOperator{\sgn}{sgn}
 
 
@@ -23,13 +26,13 @@
 \begin{document}
 
 \section{Математический анализ}
-\input{matan.tex}
+\input{matan}
 
 \section{Дифференциальные уравнения}
-\input{difur.tex}
+\input{difur}
 
 \section{Функциональный анализ}
-\input{funkan.tex}
+\input{funkan}
 
 \section{Уравнения математической физики}
 \input{umf}
